@@ -1,33 +1,7 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# 白名单策略：忽略所有文件，仅跟踪 Markdown (.md) 文档
+# 注意：已跟踪的文件不受 .gitignore 影响，如需停止跟踪用 `git rm --cached`。
+# Allowlist: ignore everything except Markdown files.
 
-# Test binary, built with `go test -c`
-*.test
-
-# Code coverage profiles and other test artifacts
-*.out
-coverage.*
-!coverage.go
-*.coverprofile
-profile.cov
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
-go.work
-go.work.sum
-
-# env file
-.env
-
-# Editor/IDE
-# .idea/
-# .vscode/
+*
+!*/
+!*.md
