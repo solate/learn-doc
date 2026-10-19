@@ -26,6 +26,22 @@ __pycache__/
 site-packages/
 dist-info/
 
+# Go（含 go 测试产物 / 覆盖率 / workspace 文件 / vendor）
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.coverprofile
+coverage.html
+coverage.out
+coverage.xml
+go.work
+go.work.sum
+vendor/
+
 # 环境变量 / 密钥
 .env
 .env.*
